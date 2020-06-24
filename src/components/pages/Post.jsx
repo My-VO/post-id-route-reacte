@@ -9,16 +9,6 @@ import {
     useRouteMatch
   } from "react-router-dom";
 
-/* function Post() {
-    let { id } = useParams();
-
-    return (
-      <div className="post">
-        <h2>Post ID: {id}</h2>
-      </div>
-    );
-  } */
-
 function Post() {
 // The `path` lets us build <Route> paths that are
 // relative to the parent route, while the `url` lets
